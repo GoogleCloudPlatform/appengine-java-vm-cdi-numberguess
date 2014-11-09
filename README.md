@@ -11,5 +11,5 @@ Run  with Google App Engine Managed VMs
 
 Now you can view the application at <http://localhost:8080>.
 
-The Jetty specific configurations can be seen under <src/main/webapp/WEB-INF/jetty-context.xml>
- and <src/main/webapp/WEB-INF/jetty-env.xml>
+The Jetty specific configurations can be seen under [src/main/webapp/WEB-INF/jetty-context.xml](src/main/webapp/WEB-INF/jetty-context.xml)
+ and [src/main/webapp/WEB-INF/jetty-env.xml](src/main/webapp/WEB-INF/jetty-env.xml).
