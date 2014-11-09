@@ -87,6 +87,7 @@
         <configuration>
           <!--gcloud_verbosity>debug</gcloud_verbosity-->
           <!--gcloud_app_version>dockerversion</gcloud_app_version-->
+          <gcloud_app_set_default>true</gcloud_app_set_default>
         </configuration>
       </plugin>
             
