@@ -17,7 +17,7 @@
   </repositories-->
   <properties>
     <appengine.app.version>1</appengine.app.version>
-    <appengine.target.version>1.9.15</appengine.target.version>
+    <appengine.target.version>1.9.19</appengine.target.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
@@ -82,18 +82,14 @@
 
       <plugin>
         <groupId>com.google.appengine</groupId>
-        <artifactId>appengine-maven-plugin</artifactId>
-        <version>1.9.15</version>
+        <artifactId>gcloud-maven-plugin</artifactId>
+        <version>0.9.57.v20150425</version>
         <configuration>
-          <!--gcloud_verbosity>debug</gcloud_verbosity-->
-          <!--gcloud_app_version>dockerversion</gcloud_app_version-->
-          <gcloud_app_set_default>true</gcloud_app_set_default>
+          <set_default>true</set_default>
         </configuration>
       </plugin>
-            
-
-
     </plugins>
+            
   </build>
   <name>appengine-managed-runtime-cdi</name>
 </project>

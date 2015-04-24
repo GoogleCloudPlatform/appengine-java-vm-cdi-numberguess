@@ -4,10 +4,10 @@ Weld Numberguess Example
 This example demonstrates the use of Weld in a Servlet container in App Engine Managed VMs. 
 This is an adaption from <https://github.com/weld/core/tree/master/examples/jsf/numberguess>
 
-Run  with Google App Engine Managed VMs
+Run  with Google App Engine Managed VMs (Assuming you have installed the Cloud SDK)
 --------------------
 
-        mvn appengine:gcloud_app_run
+        mvn gcloud:run
 
 Now you can view the application at <http://localhost:8080>.
 
