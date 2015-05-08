@@ -2,7 +2,7 @@ Weld Numberguess Example
 ========================
 
 This example demonstrates the use of Weld in a Servlet container in App Engine Managed VMs. 
-This is an adaption from <https://github.com/weld/core/tree/master/examples/jsf/numberguess>
+This is an adaptation of <https://github.com/weld/core/tree/master/examples/jsf/numberguess>
 
 Run  with Google App Engine Managed VMs (Assuming you have installed the Cloud SDK)
 --------------------
